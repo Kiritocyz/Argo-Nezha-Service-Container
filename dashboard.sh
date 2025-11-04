@@ -13,18 +13,18 @@ mkdir -p $TEMP_DIR
 
 E[0]="Language:\n 1. English (default) \n 2. 简体中文"
 C[0]="${E[0]}"
-E[1]="Nezha Dashboard for VPS (https://github.com/fscarmen2/Argo-Nezha-Service-Containe).\n  - Goodbye docker!\n  - Goodbye port mapping!\n  - Goodbye IPv4/IPv6 Compatibility!"
-C[1]="哪吒面板 VPS 特供版 (https://github.com/fscarmen2/Argo-Nezha-Service-Containe)\n  - 告别 Docker！\n  - 告别端口映射！\n  - 告别 IPv4/IPv6 兼容性！"
-E[2]="Curren architecture \$(uname -m) is not supported. Feedback: [https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[2]="当前架构 \$(uname -m) 暂不支持,问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
+E[1]="Nezha Dashboard v0,v1 Combined for VPS (https://github.com/Kiritocyz/Argo-Nezha-Service-Container).\n  - Modified from Argo-Nezha-Service-Container of fscarmen \n  - Goodbye docker!\n  - Goodbye port mapping!\n  - Goodbye IPv4/IPv6 Compatibility!"
+C[1]="哪吒面板 VPS 兼容v0、v1版 (https://github.com/Kiritocyz/Argo-Nezha-Service-Container)\n  - 源自大佬 fscarmen 的 Argo-Nezha-Service-Container 修改 \n  - 告别 Docker！\n  - 告别端口映射！\n  - 告别 IPv4/IPv6 兼容性！"
+E[2]="Curren architecture \$(uname -m) is not supported. Feedback: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[2]="当前架构 \$(uname -m) 暂不支持,问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
 E[3]="Input errors up to 5 times.The script is aborted."
 C[3]="输入错误达5次,脚本退出"
-E[4]="The script must be run as root, you can enter sudo -i and then download and run again. Feedback:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[4]="必须以root方式运行脚本，可以输入 sudo -i 后重新下载运行，问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-E[5]="The script supports Debian, Ubuntu, CentOS, Alpine or Arch systems only. Feedback: [https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[5]="本脚本只支持 Debian、Ubuntu、CentOS、Alpine 或 Arch 系统,问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-E[6]="Curren operating system is \$SYS.\\\n The system lower than \$SYSTEM \${MAJOR[int]} is not supported. Feedback: [https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[6]="当前操作是 \$SYS\\\n 不支持 \$SYSTEM \${MAJOR[int]} 以下系统,问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
+E[4]="The script must be run as root, you can enter sudo -i and then download and run again. Feedback:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[4]="必须以root方式运行脚本，可以输入 sudo -i 后重新下载运行，问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+E[5]="The script supports Debian, Ubuntu, CentOS, Alpine or Arch systems only. Feedback: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[5]="本脚本只支持 Debian、Ubuntu、CentOS、Alpine 或 Arch 系统,问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+E[6]="Curren operating system is \$SYS.\\\n The system lower than \$SYSTEM \${MAJOR[int]} is not supported. Feedback: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[6]="当前操作是 \$SYS\\\n 不支持 \$SYSTEM \${MAJOR[int]} 以下系统,问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
 E[7]="Install dependence-list:"
 C[7]="安装依赖列表:"
 E[8]="All dependencies already exist and do not need to be installed additionally."
@@ -47,16 +47,16 @@ E[16]="Please enter the Github Email for the database:"
 C[16]="请输入数据库的 Github Email:"
 E[17]="Please enter a Github PAT:"
 C[17]="请输入 Github PAT:"
-E[18]="There are variables that are not set. Installation aborted. Feedback: [https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[18]="参数不齐，安装中止，问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
+E[18]="There are variables that are not set. Installation aborted. Feedback: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[18]="参数不齐，安装中止，问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
 E[19]="Exit"
 C[19]="退出"
 E[20]="Close Nezha dashboard"
 C[20]="关闭哪吒面板"
 E[21]="Open Nezha dashboard"
 C[21]="开启哪吒面板"
-E[22]="Argo authentication message does not match the rules, neither Token nor Json, script exits. Feedback:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[22]="Argo 认证信息不符合规则，既不是 Token，也是不是 Json，脚本退出，问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
+E[22]="Argo authentication message does not match the rules, neither Token nor Json, script exits. Feedback:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[22]="Argo 认证信息不符合规则，既不是 Token，也是不是 Json，脚本退出，问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
 E[23]="Please enter the correct number"
 C[23]="请输入正确数字"
 E[24]="Choose:"
@@ -71,28 +71,28 @@ E[28]="open"
 C[28]="开启"
 E[29]="Uninstall Nezha dashboard"
 C[29]="卸载哪吒面板"
-E[30]="Install fscarmen's VPS with Argo version (https://github.com/fscarmen2/Argo-Nezha-Service-Container)"
-C[30]="安装 fscarmen 的 VPS argo 带远程备份版 (https://github.com/fscarmen2/Argo-Nezha-Service-Container)"
+E[30]="Install Kiritocyz's VPS with Argo v0,v1 Combined version (https://github.com/Kiritocyz/Argo-Nezha-Service-Container)"
+C[30]="安装 Kiritocyz 的 VPS argo 带远程备份的v0、v1兼容版 (https://github.com/Kiritocyz/Argo-Nezha-Service-Container)"
 E[31]="successful"
 C[31]="成功"
 E[32]="failed"
 C[32]="失败"
-E[33]="Could not find \$NEED_PORTS free ports, script exits. Feedback:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[33]="找不到 \$NEED_PORTS 个可用端口，脚本退出，问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-E[34]="Important!!! Please turn on gRPC at the Network of the relevant Cloudflare domain, otherwise the client data will not work! See the tutorial for details: [https://github.com/fscarmen2/Argo-Nezha-Service-Container]"
-C[34]="重要!!! 请到 Cloudflare 相关域名的 Network 处打开 gRPC 功能，否则客户端数据不通!具体可参照教程: [https://github.com/fscarmen2/Argo-Nezha-Service-Container]"
+E[33]="Could not find \$NEED_PORTS free ports, script exits. Feedback:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[33]="找不到 \$NEED_PORTS 个可用端口，脚本退出，问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+E[34]="Important!!! Please turn on gRPC at the Network of the relevant Cloudflare domain, otherwise the client data will not work! See the tutorial for details: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container]"
+C[34]="重要!!! 请到 Cloudflare 相关域名的 Network 处打开 gRPC 功能，否则客户端数据不通!具体可参照教程: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container]"
 E[35]="Please add two Public hostnames to Cloudnflare Tunnel: \\\n 1. ------------------------ \\\n Public hostname: \$ARGO_DOMAIN \\\n Path: proto.NezhaService \\\n Type: HTTPS \\\n URL: localhost:\$GRPC_PROXY_PORT \\\n Additional application settings ---\> TLS: Enable [No TLS Verify] and [HTTP2 connection] \\\n\\\n 2. ------------------------ \\\n Public hostname: \$ARGO_DOMAIN \\\n Type: HTTP \\\n URL: localhost:\$WEB_PORT"
 C[35]="请在 Cloudnflare Tunnel 里增加两个 Public hostnames: \\\n 1. ------------------------ \\\n Public hostname: \$ARGO_DOMAIN \\\n Path: proto.NezhaService \\\n Type: HTTPS \\\n URL: localhost:\$GRPC_PROXY_PORT \\\n Additional application settings ---\> TLS: 开启 [No TLS Verify] 和 [HTTP2 connection] 这两处功能 \\\n\\\n 2. ------------------------ \\\n Public hostname: \$ARGO_DOMAIN \\\n Type: HTTP \\\n URL: localhost:\$WEB_PORT"
-E[36]="Downloading the \${FAILED[*]} failed. Installation aborted. Feedback: [https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
-C[36]="下载 \${FAILED[*]} 失败，安装中止，问题反馈:[https://github.com/fscarmen2/Argo-Nezha-Service-Container/issues]"
+E[36]="Downloading the \${FAILED[*]} failed. Installation aborted. Feedback: [https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
+C[36]="下载 \${FAILED[*]} 失败，安装中止，问题反馈:[https://github.com/Kiritocyz/Argo-Nezha-Service-Container/issues]"
 E[37]="Install Nezha's official VPS or docker version (https://github.com/naiba/nezha)"
 C[37]="安装哪吒官方 VPS 或 Docker 版本 (https://github.com/naiba/nezha)"
-E[38]="Please choose gRPC proxy mode:\n 1. Caddy (default)\n 2. Nginx\n 3. gRPCwebProxy"
-C[38]="请选择 gRPC 代理模式:\n 1. Caddy (默认)\n 2. Nginx\n 3. gRPCwebProxy"
+E[38]="Please choose gRPC proxy mode(v1 use Caddy):\n 1. Caddy (default)\n 2. Nginx\n 3. gRPCwebProxy"
+C[38]="请选择 gRPC 代理模式(v1请使用Caddy):\n 1. Caddy (默认)\n 2. Nginx\n 3. gRPCwebProxy"
 E[39]="To uninstall Nginx press [y], it is not uninstalled by default:"
 C[39]="如要卸载 Nginx 请按 [y]，默认不卸载:"
-E[40]="Please enter the specified Nezha dashboard version, it will be fixed in this version, if you skip it, the default v0.20.13 will be used. :"
-C[40]="请填入指定面板版本,后续将固定在该版本，跳过则使用默认的 v0.20.13 :"
+E[40]="Please enter the specified Nezha dashboard version, it will be fixed in this version, if you skip it, the latest v1 will be used. :"
+C[40]="请填入指定面板版本,后续将固定在该版本，跳过则使用v1最新版"
 E[41]="Default: enable automatic online synchronization of the latest backup.sh and restore.sh scripts. If you do not want this feature, enter [n]:"
 C[41]="默认开启自动在线同步最新 backup.sh 和 restore.sh 脚本的功能，如不需要该功能，请输入 [n]:"
 E[42]="The DASHBOARD_VERSION variable should be in a format like v0.00.00 or left blank. Please check."
@@ -228,7 +228,7 @@ check_system_info() {
 
 # 检测是否需要启用 Github CDN，如能直接连通，则不使用
 check_cdn() {
-  [ -n "$GH_PROXY" ] && wget --server-response --quiet --output-document=/dev/null --no-check-certificate --tries=2 --timeout=3 https://raw.githubusercontent.com/fscarmen2/Argo-Nezha-Service-Container/main/README.md >/dev/null 2>&1 && unset GH_PROXY
+  [ -n "$GH_PROXY" ] && wget --server-response --quiet --output-document=/dev/null --no-check-certificate --tries=2 --timeout=3 https://raw.githubusercontent.com/Kiritocyz/Argo-Nezha-Service-Container/main/README.md >/dev/null 2>&1 && unset GH_PROXY
 }
 
 check_dependencies() {
@@ -274,12 +274,23 @@ certificate() {
 }
 
 dashboard_variables() {
-  [ -z "$GH_USER" ] && reading " (1/12) $(text 9) " GH_USER
-  [ -z "$GH_CLIENTID" ] && reading "\n (2/12) $(text 10) " GH_CLIENTID
-  [ -z "$GH_CLIENTSECRET" ] && reading "\n (3/12) $(text 11) " GH_CLIENTSECRET
+# 询问版本自动后台下载
+  [ -z "$DASHBOARD_VERSION" ] && reading "\n (1/12) $(text 40) " DASHBOARD_VERSION
+  if [ -z "$DASHBOARD_VERSION" ]; then
+    { wget -qO $TEMP_DIR/dashboard.zip ${GH_PROXY}https://github.com/nezhahq/nezha/releases/latest/download/dashboard-linux-$ARCH.zip >/dev/null 2>&1; }&
+  elif [[ "$DASHBOARD_VERSION" =~ [0-1]{1}\.[0-9]{1,2}\.[0-9]{1,2}$ ]]; then
+    DASHBOARD_LATEST=$(sed 's/[A-Za-z]//; s/^/v&/' <<< "$DASHBOARD_VERSION")
+    { wget -qO $TEMP_DIR/dashboard.zip ${GH_PROXY}https://github.com/naiba/nezha/releases/download/$DASHBOARD_LATEST/dashboard-linux-$ARCH.zip >/dev/null 2>&1; }&
+  else
+    error "\n $(text 42) \n"
+  fi
+
+  [ -z "$GH_USER" ] && reading " (2/12) $(text 9) " GH_USER
+  [ -z "$GH_CLIENTID" ] && reading "\n (3/12) $(text 10) " GH_CLIENTID
+  [ -z "$GH_CLIENTSECRET" ] && reading "\n (4/12) $(text 11) " GH_CLIENTSECRET
   local a=5
   until [[ "$ARGO_AUTH" =~ TunnelSecret || "$ARGO_AUTH" =~ ^[A-Z0-9a-z=]{120,250}$ || "$ARGO_AUTH" =~ .*cloudflared.*service[[:space:]]+install[[:space:]]+[A-Z0-9a-z=]{1,100} ]]; do
-    [ "$a" = 0 ] && error "\n $(text 3) \n" || reading "\n (4/12) $(text 12) " ARGO_AUTH
+    [ "$a" = 0 ] && error "\n $(text 3) \n" || reading "\n (5/12) $(text 12) " ARGO_AUTH
     if [[ "$ARGO_AUTH" =~ TunnelSecret ]]; then
       ARGO_JSON=${ARGO_AUTH//[ ]/}
     elif [[ "$ARGO_AUTH" =~ ^[A-Z0-9a-z=]{120,250}$ ]]; then
@@ -293,38 +304,31 @@ dashboard_variables() {
   done
 
   # 处理可能输入的错误，去掉开头和结尾的空格，去掉最后的 :
-  [ -z "$ARGO_DOMAIN" ] && reading "\n (5/12) $(text 13) " ARGO_DOMAIN
+  [ -z "$ARGO_DOMAIN" ] && reading "\n (6/12) $(text 13) " ARGO_DOMAIN
   ARGO_DOMAIN=$(sed 's/[ ]*//g; s/:[ ]*//' <<< "$ARGO_DOMAIN")
   { certificate; }&
 
   # # 用户选择使用 gRPC 反代方式: Nginx / Caddy / grpcwebproxy，默认为 Caddy
-  [ -z "$REVERSE_PROXY_MODE" ] && info "\n (6/12) $(text 38) \n" && reading " $(text 24) " REVERSE_PROXY_CHOOSE
+  [ -z "$REVERSE_PROXY_MODE" ] && info "\n (7/12) $(text 38) \n" && reading " $(text 24) " REVERSE_PROXY_CHOOSE
   case "$REVERSE_PROXY_CHOOSE" in
     2 ) REVERSE_PROXY_MODE=nginx ;;
     3 ) REVERSE_PROXY_MODE=grpcwebproxy ;;
     * ) REVERSE_PROXY_MODE=caddy ;;
   esac
 
-  [[ -z "$GH_USER" || -z "$GH_CLIENTID" || -z "$GH_CLIENTSECRET" || -z "$ARGO_AUTH" || -z "$ARGO_DOMAIN" ]] && error "\n $(text 18) "
-
-  [ -z "$GH_REPO"] && reading "\n (7/12) $(text 14) " GH_REPO
-  if [ -n "$GH_REPO" ]; then
-    [ -z "$GH_BACKUP_USER" ] && reading "\n (8/12) $(text 15) " GH_BACKUP_USER
-    GH_BACKUP_USER=${GH_BACKUP_USER:-$GH_USER}
-    [ -z "$GH_EMAIL"] && reading "\n (9/12) $(text 16) " GH_EMAIL
-    [ -z "$GH_PAT"] && reading "\n (10/12) $(text 17) " GH_PAT
-  fi
-
-  # 询问版本自动后台下载
-  [ -z "$DASHBOARD_VERSION" ] && reading "\n (11/12) $(text 40) " DASHBOARD_VERSION
-  if [ -z "$DASHBOARD_VERSION" ]; then
-    DASHBOARD_LATEST='v0.20.13'
-  elif [[ "$DASHBOARD_VERSION" =~ 0\.[0-9]{1,2}\.[0-9]{1,2}$ ]]; then
-    DASHBOARD_LATEST=$(sed 's/[A-Za-z]//; s/^/v&/' <<< "$DASHBOARD_VERSION")
+  if [[ "$DASHBOARD_VERSION" =~ 0\.[0-9]{1,2}\.[0-9]{1,2}$ ]]; then
+    [[ -z "$GH_USER" || -z "$GH_CLIENTID" || -z "$GH_CLIENTSECRET" || -z "$ARGO_AUTH" || -z "$ARGO_DOMAIN" ]] && error "\n $(text 18) "
   else
-    error "\n $(text 42) \n"
+    [[ -z "$ARGO_AUTH" || -z "$ARGO_DOMAIN" ]] && error "\n $(text 18) "
   fi
-  { wget -qO $TEMP_DIR/dashboard.zip ${GH_PROXY}https://github.com/naiba/nezha/releases/download/$DASHBOARD_LATEST/dashboard-linux-$ARCH.zip >/dev/null 2>&1; }&
+
+  [ -z "$GH_REPO"] && reading "\n (8/12) $(text 14) " GH_REPO
+  if [ -n "$GH_REPO" ]; then
+    [ -z "$GH_BACKUP_USER" ] && reading "\n (9/12) $(text 15) " GH_BACKUP_USER
+    GH_BACKUP_USER=${GH_BACKUP_USER:-$GH_USER}
+    [ -z "$GH_EMAIL"] && reading "\n (10/12) $(text 16) " GH_EMAIL
+    [ -z "$GH_PAT"] && reading "\n (11/12) $(text 17) " GH_PAT
+  fi
 
   [ -z "$AUTO_RENEW_OR_NOT"] && reading "\n (12/12) $(text 41) " AUTO_RENEW_OR_NOT
   grep -qiw 'n' <<< "$AUTO_RENEW_OR_NOT" && IS_AUTO_RENEW=#
@@ -445,7 +449,8 @@ EOF
     DASHBOARD_LANGUAGE='en-US'
   fi
 
-  cat > ${WORK_DIR}/data/config.yaml << EOF
+  if [[ "$DASHBOARD_VERSION" =~ 0\.[0-9]{1,2}\.[0-9]{1,2}$ ]]; then
+    cat > ${WORK_DIR}/data/config.yaml << EOF
 Debug: false
 HTTPPort: $WEB_PORT
 Language: $DASHBOARD_LANGUAGE
@@ -464,6 +469,31 @@ Site:
   CookieName: "nezha-dashboard" #浏览器 Cookie 字段名，可不改
   Theme: "default"
 EOF
+  else
+    LOCAL_TOKEN=$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 32)
+    cat > ${WORK_DIR}/data/config.yaml << EOF
+agent_secret_key: $LOCAL_TOKEN
+debug: false
+listen_port: $GRPC_PORT
+language: zh-CN
+site_name: "Nezha Probe"
+install_host: $ARGO_DOMAIN:443
+location: Asia/Shanghai
+tls: true
+EOF
+    if [[ -n "$GH_CLIENTID" && -n "$GH_CLIENTSECRET" ]]; then
+      cat >> ${WORK_DIR}/data/config.yaml << EOF
+oauth2:
+   GitHub:
+     client_id: "$GH_CLIENTID"
+     client_secret: "$GH_CLIENTSECRET"
+     endpoint:
+       auth_url: "https://github.com/login/oauth/authorize"
+       token_url: "https://github.com/login/oauth/access_token"
+     user_info_url: "https://api.github.com/user"
+     user_id_path: "id"
+EOF
+  fi
 
   # 判断 ARGO_AUTH 为 json 还是 token
   # 如为 json 将生成 argo.json 和 argo.yml 文件
@@ -517,7 +547,7 @@ EOF
 [Unit]
 Description=Nezha Argo for VPS
 After=network.target
-Documentation=https://github.com/fscarmen2/Argo-Nezha-Service-Container
+Documentation=https://github.com/Kiritocyz/Argo-Nezha-Service-Container
 
 [Service]
 Type=simple
@@ -546,7 +576,7 @@ GH_REPO=$GH_REPO
 SYSTEM=$SYSTEM
 ARCH=$ARCH
 WORK_DIR=$WORK_DIR
-DAYS=5
+DAYS=$BACKUP_NUM
 IS_DOCKER=0
 DASHBOARD_VERSION=$DASHBOARD_VERSION
 
@@ -554,7 +584,7 @@ DASHBOARD_VERSION=$DASHBOARD_VERSION
 EOF
 
   # 生成 backup.sh 文件的步骤2 - 在线获取 template/bakcup.sh 模板生成完整 backup.sh 文件
-  wget -qO- ${GH_PROXY}https://raw.githubusercontent.com/fscarmen2/Argo-Nezha-Service-Container/main/template/backup.sh | sed '1,/^########/d' >> ${WORK_DIR}/backup.sh
+  wget -qO- ${GH_PROXY}https://raw.githubusercontent.com/Kiritocyz/Argo-Nezha-Service-Container/main/template/backup.sh | sed '1,/^########/d' >> ${WORK_DIR}/backup.sh
 
   if [[ -n "$GH_BACKUP_USER" && -n "$GH_REPO" && -n "$GH_PAT" ]]; then
     # 生成还原数据脚本
@@ -578,7 +608,7 @@ IS_DOCKER=0
 ########
 EOF
     # 生成 restore.sh 文件的步骤2 - 在线获取 template/restore.sh 模板生成完整 restore.sh 文件
-    wget -qO- ${GH_PROXY}https://raw.githubusercontent.com/fscarmen2/Argo-Nezha-Service-Container/main/template/restore.sh | sed '1,/^########/d' >> ${WORK_DIR}/restore.sh
+    wget -qO- ${GH_PROXY}https://raw.githubusercontent.com/Kiritocyz/Argo-Nezha-Service-Container/main/template/restore.sh | sed '1,/^########/d' >> ${WORK_DIR}/restore.sh
   fi
 
   # 生成 renew.sh 文件的步骤1 - 设置环境变量
@@ -593,16 +623,16 @@ TEMP_DIR=/tmp/renew
 EOF
 
   # 生成 renew.sh 文件的步骤2 - 在线获取 template/renew.sh 模板生成完整 renew.sh 文件
-  wget -qO- ${GH_PROXY}https://raw.githubusercontent.com/fscarmen2/Argo-Nezha-Service-Container/main/template/renew.sh | sed '1,/^########/d' >> ${WORK_DIR}/renew.sh
+  wget -qO- ${GH_PROXY}https://raw.githubusercontent.com/Kiritocyz/Argo-Nezha-Service-Container/main/template/renew.sh | sed '1,/^########/d' >> ${WORK_DIR}/renew.sh
 
   # 生成定时任务: 1.每天北京时间 3:30:00 更新备份和还原文件，2.每天北京时间 4:00:00 备份一次，并重启 cron 服务； 3.每分钟自动检测在线备份文件里的内容
   if [ "$SYSTEM" = 'Alpine' ]; then
     [ -s $WORK_DIR/renew.sh ] && ! grep -q "${WORK_DIR}/renew.sh" /var/spool/cron/crontabs/root && echo "${IS_AUTO_RENEW}30       3       *       *       *       bash ${WORK_DIR}/renew.sh a" >> /var/spool/cron/crontabs/root
-    [ -s $WORK_DIR/backup.sh ] && ! grep -q "${WORK_DIR}/backup.sh" /var/spool/cron/crontabs/root && echo "0       4       *       *       *       bash ${WORK_DIR}/backup.sh a" >> /var/spool/cron/crontabs/root
+    [ -s $WORK_DIR/backup.sh ] && ! grep -q "${WORK_DIR}/backup.sh" /var/spool/cron/crontabs/root && echo "${BACKUP_TIME}       bash ${WORK_DIR}/backup.sh a" >> /var/spool/cron/crontabs/root
     [ -s $WORK_DIR/restore.sh ] && ! grep -q "${WORK_DIR}/restore.sh" /var/spool/cron/crontabs/root && echo "*       *       *       *       *       bash ${WORK_DIR}/restore.sh a" >> /var/spool/cron/crontabs/root
   else
     [ -s $WORK_DIR/renew.sh ] && ! grep -q "${WORK_DIR}/renew.sh" /etc/crontab && echo "${IS_AUTO_RENEW}30 3 * * * root bash ${WORK_DIR}/renew.sh" >> /etc/crontab
-    [ -s $WORK_DIR/backup.sh ] && ! grep -q "${WORK_DIR}/backup.sh" /etc/crontab && echo "0 4 * * * root bash ${WORK_DIR}/backup.sh a" >> /etc/crontab
+    [ -s $WORK_DIR/backup.sh ] && ! grep -q "${WORK_DIR}/backup.sh" /etc/crontab && echo "${BACKUP_TIME} root bash ${WORK_DIR}/backup.sh a" >> /etc/crontab
     [ -s $WORK_DIR/restore.sh ] && ! grep -q "${WORK_DIR}/restore.sh" /etc/crontab && echo "* * * * * root bash ${WORK_DIR}/restore.sh a" >> /etc/crontab
     service cron restart >/dev/null 2>&1
   fi
