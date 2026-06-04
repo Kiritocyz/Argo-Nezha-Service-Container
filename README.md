@@ -72,7 +72,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/Kiritocyz/Argo-Nezha-Service-
   | ------------ | ------   |
   | 探针不上线，[点击前往域名准备教程](https://github.com/Kiritocyz/Argo-Nezha-Service-Container#%E5%87%86%E5%A4%87%E9%9C%80%E8%A6%81%E7%94%A8%E7%9A%84%E5%8F%98%E9%87%8F) | 请在 `cf` 面板查看 `argo`域名的 `grpc` 设置，一定要开启！还有可能是域名的问题，可以换个域名试试 |
   | agent的安装命令 | 端口需确认为 `443` ，`tls` 需确认为 `true` |
-  | OAuth 2.0 | v0为 `https://你的面板域名/oauth2/callback`，v1为 `https://你的面板域名/api/v1/oauth2/callback` |
+  | Github OAuth 2.0 | v0为 `https://你的面板域名/oauth2/callback` ；v1为 `https://你的面板域名/api/v1/oauth2/callback` ，v1需要先使用本地账户登录，并在 `右上角头像-个人信息` 里完成 OAuth2 绑定，如果还没有绑定关系，不能直接使用 OAuth2 登录到本地账户|
   | 使用备份，[点击前往备份教程](https://github.com/Kiritocyz/Argo-Nezha-Service-Container?tab=readme-ov-file#%E6%89%8B%E5%8A%A8%E5%A4%87%E4%BB%BD%E6%95%B0%E6%8D%AE) | 有的容器重启会丢失数据，需要使用备份，需要 `GH_USER`或`GH_BACKUP_USER`、`GH_REPO`、`GH_EMAIL`、`GH_PAT` 这4个变量有值 |
   | 注意自动还原 | 容器在修改环境变量后会重新部署，注意备份库会自动还原备份 |
   | 使用本地ssh，[点击前往ssh教程](https://github.com/Kiritocyz/Argo-Nezha-Service-Container?tab=readme-ov-file#ssh-%E6%8E%A5%E5%85%A5) | 需要 `GH_CLIENTID`、`GH_CLIENTSECRET` 这2个变量有值 |
