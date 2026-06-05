@@ -335,7 +335,7 @@ ingress:
 EOF
     if [[ "$DASHBOARD_VERSION" =~ 0\.[0-9]{1,2}\.[0-9]{1,2}$ ]]; then
       cat >> $WORK_DIR/argo.yml << EOF
-    service: http://localhost:$WEB_PORT
+    service: http://localhost:$PRO_PORT
   - service: http_status:404
 EOF
     else
