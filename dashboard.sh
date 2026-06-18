@@ -321,7 +321,7 @@ dashboard_variables() {
     3 ) REVERSE_PROXY_MODE=grpcwebproxy ;;
     * ) REVERSE_PROXY_MODE=caddy ;;
   esac
-  [ "$REVERSE_PROXY_MODE" = "caddy"] && reading "\n (7.5/14) $(text 45) " CADDY_VERSION
+  [ "$REVERSE_PROXY_MODE" = "caddy" ] && reading "\n (7.5/14) $(text 45) " CADDY_VERSION
   if [ -z "$CADDY_VERSION" ]; then
     CADDY_VERSION=2.9.1
   elif [[ "$CADDY_VERSION" =~ [0-9]{1}\.[0-9]{1,2}\.[0-9]{1,2}$ ]]; then
